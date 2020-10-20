@@ -20,8 +20,8 @@ coll_blood6 = False
 coll_blood7 = False
 
 player_img = pygame.image.load('rocket-launch.png')
-playerX = 370
-playerY = 480
+playerX = 375
+playerY = 487
 playerX_change = 0
 playerY_change = 0
 
@@ -42,7 +42,7 @@ for i in range(no_of_enemies):
 
 # blood
 bloodX = 100
-bloodY = 100
+bloodY = 102
 bloodC = 20
 blood_state = "ready"
 blood_img = pygame.image.load('blood.png')
@@ -52,7 +52,7 @@ games = "no"
 
 bullet_img = pygame.image.load('bullet.png')
 bulletX = 0
-bulletY = 480
+bulletY = 482
 bulletX_change = 0
 bulletY_change = 10
 bullet_state = "ready"
